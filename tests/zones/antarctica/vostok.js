@@ -8,8 +8,8 @@ exports["Antarctica/Vostok"] = {
 
 	"guess:by:abbr" : helpers.makeTestGuess("Antarctica/Vostok", { abbr: true, expect: "Asia/Dhaka" }),
 
-	"1957" : helpers.makeTestYear("Antarctica/Vostok", [
-		["1957-12-15T23:59:59+00:00", "23:59:59", "-00", 0],
-		["1957-12-16T00:00:00+00:00", "06:00:00", "+06", -360]
+	"1927" : helpers.makeTestYear("Antarctica/Vostok", [
+		["1927-12-31T18:09:39+00:00", "23:59:59", "LMT", -21020 / 60],
+		["1927-12-31T18:09:40+00:00", "00:09:40", "+06", -360]
 	])
 };
